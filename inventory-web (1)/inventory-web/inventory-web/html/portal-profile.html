@@ -1,0 +1,12 @@
+{{pageHead}}
+<div class="card">
+  <form data-action="update-profile">
+    <div class="field"><label>Username</label><input name="username" value="{{username}}" required></div>
+    <div class="field"><label>Full name</label><input name="fullName" value="{{fullName}}" required></div>
+    <div class="field"><label>Email</label><input name="email" type="email" value="{{email}}" required></div>
+    <div class="divider"></div>
+    <div class="field"><label>Current password</label><input name="currentPassword" type="password"></div>
+    <div class="field"><label>New password</label><input name="newPassword" type="password" minlength="6"></div>
+    <button type="submit">Save changes</button>
+  </form>
+</div>

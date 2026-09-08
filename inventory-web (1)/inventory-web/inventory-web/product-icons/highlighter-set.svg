@@ -1,0 +1,7 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#F5F5F5"/>
+  <rect x="55" y="70" width="90" height="22" rx="4" fill="#FFEB3B" stroke="#1A1A1A" stroke-width="3"/>
+  <rect x="55" y="96" width="90" height="22" rx="4" fill="#FF9800" stroke="#1A1A1A" stroke-width="3"/>
+  <rect x="55" y="122" width="90" height="22" rx="4" fill="#4CAF50" stroke="#1A1A1A" stroke-width="3"/>
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A1A" text-anchor="middle">Highlighter Set</text>
+</svg>

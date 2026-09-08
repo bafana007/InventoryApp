@@ -1,0 +1,15 @@
+{{pageHead}}
+<div class="card">
+  <h2>Create account</h2>
+  <form data-action="create-user"><div class="field-row">
+    <div class="field"><label>Full name</label><input name="fullName" required></div>
+    <div class="field"><label>Username</label><input name="username" required></div>
+    <div class="field"><label>Email</label><input name="email" type="email" required></div>
+    <div class="field"><label>Password</label><input name="password" type="password" required></div>
+    <div class="field"><label>Role</label><select name="role">{{roleOptions}}</select></div>
+  </div>
+  <button type="submit">Create user</button></form>
+</div>
+<div class="card mt-20">
+  <div data-insert="users-table"></div>
+</div>

@@ -1,0 +1,15 @@
+{{pageHead}}
+<div class="grid cols-2">
+  <div class="card">
+    <h2>New category</h2>
+    <form data-action="create-category">
+      <div class="field"><label>Name</label><input name="name" required></div>
+      <div class="field"><label>Description</label><input name="description"></div>
+      <button type="submit">Create</button>
+    </form>
+  </div>
+  <div class="card">
+    <h2>Existing</h2>
+    <div data-insert="categories-table"></div>
+  </div>
+</div>

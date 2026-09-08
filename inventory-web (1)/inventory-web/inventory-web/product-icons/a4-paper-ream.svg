@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#F5F5F5"/>
+  <rect x="55" y="35" width="90" height="120" rx="4" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3"/>
+  <rect x="65" y="45" width="90" height="120" rx="4" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="3"/>
+  <line x1="78" y1="65" x2="132" y2="65" stroke="#CCCCCC" stroke-width="2"/>
+  <line x1="78" y1="78" x2="132" y2="78" stroke="#CCCCCC" stroke-width="2"/>
+  <line x1="78" y1="91" x2="132" y2="91" stroke="#CCCCCC" stroke-width="2"/>
+  <line x1="78" y1="104" x2="132" y2="104" stroke="#CCCCCC" stroke-width="2"/>
+  <line x1="78" y1="117" x2="132" y2="117" stroke="#CCCCCC" stroke-width="2"/>
+  <line x1="78" y1="130" x2="115" y2="130" stroke="#CCCCCC" stroke-width="2"/>
+  <rect x="65" y="45" width="90" height="12" fill="#1A1A1A"/>
+  <text x="110" y="53" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A4</text>
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A1A" text-anchor="middle">A4 Paper Ream</text>
+</svg>

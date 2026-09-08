@@ -1,0 +1,69 @@
+{{pageHead}}
+<div class="grid cols-4">
+  <div data-insert="stat-1"></div>
+  <div data-insert="stat-2"></div>
+  <div data-insert="stat-3"></div>
+  <div data-insert="stat-4"></div>
+  <div data-insert="stat-5"></div>
+  <div data-insert="stat-6"></div>
+</div>
+
+<div class="grid cols-2 mt-24">
+  <div class="card"><h2>Create user</h2>
+    <form data-action="create-user"><div class="field-row">
+      <div class="field"><label>Full name</label><input name="fullName" required></div>
+      <div class="field"><label>Username</label><input name="username" required></div>
+      <div class="field"><label>Email</label><input name="email" type="email" required></div>
+      <div class="field"><label>Password</label><input name="password" type="password" required></div>
+      <div class="field"><label>Role</label><select name="role">{{roleOptions}}</select></div>
+    </div>
+    <button type="submit">Create user</button></form>
+  </div>
+
+  <div class="card"><h2>Users</h2>
+    <div data-insert="users-table"></div>
+    <p class="mt-12"><a href="#/admin/users">Manage all users</a></p>
+  </div>
+</div>
+
+<div class="grid cols-2 mt-24">
+  <div class="card"><h2>Add product</h2>
+    <form data-action="create-product">
+      <div class="field-row">
+        <div class="field"><label>SKU</label><input name="sku" required></div>
+        <div class="field"><label>Name</label><input name="name" required></div>
+        <div class="field"><label>Category</label><select name="categoryId">{{categoryOptions}}</select></div>
+        <div class="field"><label>Location</label><input name="location" placeholder="Aisle / shelf"></div>
+      </div>
+      <div class="field-row">
+        <div class="field"><label>Opening qty</label><input name="quantity" type="number" value="0" min="0"></div>
+        <div class="field"><label>Reorder level</label><input name="reorderLevel" type="number" value="5" min="0"></div>
+        <div class="field"><label>Unit price</label><input name="unitPrice" type="number" step="0.01" value="0"></div>
+        <div class="field"><label>Description</label><input name="description"></div>
+      </div>
+      <button type="submit">Create product</button>
+    </form>
+  </div>
+
+  <div class="card"><h2>Stock levels</h2>
+    <div data-insert="stock-levels-table"></div>
+    <p class="mt-12"><a href="#/admin/products">Manage all products</a></p>
+  </div>
+</div>
+
+<div class="card mt-24">
+  <h2>All orders</h2>
+  <div data-insert="all-orders-table"></div>
+  <p class="mt-12"><a href="#/admin/requests">View all requests</a></p>
+</div>
+
+<div class="grid cols-2 mt-24">
+  <div class="card"><h2>Valuation</h2>
+    <div data-insert="valuation-table"></div>
+    <p class="mt-12"><a href="#/admin/reports">Full reports</a></p>
+  </div>
+
+  <div class="card"><h2>System activity</h2>
+    <div data-insert="system-activity-table"></div>
+  </div>
+</div>
