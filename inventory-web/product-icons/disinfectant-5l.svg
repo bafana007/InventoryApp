@@ -1,9 +1,0 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="#F5F5F5"/>
-  <rect x="75" y="45" width="18" height="15" fill="#1A1A1A"/>
-  <path d="M65 60 h70 a5 5 0 0 1 5 5 v90 a8 8 0 0 1 -8 8 h-64 a8 8 0 0 1 -8 -8 v-90 a5 5 0 0 1 5 -5 z" fill="#3AA0D8" stroke="#1A1A1A" stroke-width="3"/>
-  <rect x="70" y="95" width="60" height="45" rx="3" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
-  <text x="100" y="112" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1A1A1A" text-anchor="middle">5L</text>
-  <text x="100" y="128" font-family="Arial, sans-serif" font-size="8" fill="#1A1A1A" text-anchor="middle">DISINFECTANT</text>
-  <text x="100" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A1A" text-anchor="middle">Disinfectant 5L</text>
-</svg>

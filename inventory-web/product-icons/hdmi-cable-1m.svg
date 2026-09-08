@@ -1,7 +1,0 @@
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="#F5F5F5"/>
-  <rect x="40" y="80" width="120" height="14" rx="7" fill="#333333" stroke="#1A1A1A" stroke-width="3"/>
-  <rect x="40" y="80" width="24" height="14" rx="3" fill="#555555" stroke="#1A1A1A" stroke-width="2"/>
-  <rect x="136" y="80" width="24" height="14" rx="3" fill="#555555" stroke="#1A1A1A" stroke-width="2"/>
-  <text x="100" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A1A" text-anchor="middle">HDMI Cable 1m</text>
-</svg>
