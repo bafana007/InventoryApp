@@ -1,0 +1,9 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#F5F5F5"/>
+  <path d="M55 55 q45 -15 90 0 q10 40 -5 80 q-40 15 -80 0 q-15 -40 -5 -80 z" fill="#F2A93B" stroke="#1A1A1A" stroke-width="3"/>
+  <path d="M65 65 q35 -10 70 0" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M62 85 q38 -10 76 0" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M60 105 q40 -8 80 2" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M60 125 q40 -6 78 4" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.5"/>
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1A1A1A" text-anchor="middle">Microfibre Cloth</text>
+</svg>

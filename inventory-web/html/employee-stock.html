@@ -1,0 +1,47 @@
+{{pageHead}}
+<div class="card">
+  <div class="scanner-wrap">
+    <button id="scanner-toggle" class="btn" type="button">Scan barcode</button>
+    <div id="scanner-region" class="scanner-region" hidden>
+      <div id="qr-reader"></div>
+      <button id="scanner-stop" class="btn ghost small" type="button">Stop scanner</button>
+    </div>
+    <div id="scan-result" class="scan-result" hidden>
+      <div class="scan-result-inner">
+        <div>
+          <div class="scan-sku" id="scan-sku"></div>
+          <div class="muted" id="scan-name"></div>
+        </div>
+        <div class="scan-actions">
+          <form class="inline" id="scan-stock-form" data-action="stock-move" data-id="{{scanProductId}}">
+            <select name="type" class="w-auto"><option value="in">In</option><option value="out">Out</option><option value="adjust">Count</option></select>
+            <input name="quantity" type="number" value="1" min="0" style="max-width:80px">
+            <input name="note" placeholder="Note" style="max-width:120px">
+            <button class="small" type="submit">Apply</button>
+          </form>
+          <button id="scan-create-btn" class="btn small" type="button" hidden>Create product</button>
+        </div>
+      </div>
+      <div id="scan-create-form" class="scan-create-form" hidden>
+        <form data-action="create-product">
+          <div class="field-row">
+            <div class="field"><label>SKU</label><input name="sku" required></div>
+            <div class="field"><label>Name</label><input name="name" required></div>
+            <div class="field"><label>Location</label><input name="location" placeholder="Aisle / shelf"></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label>Opening qty</label><input name="quantity" type="number" value="1" min="0"></div>
+            <div class="field"><label>Reorder level</label><input name="reorderLevel" type="number" value="5" min="0"></div>
+            <div class="field"><label>Unit price</label><input name="unitPrice" type="number" step="0.01" value="0"></div>
+            <div class="field"><label>Description</label><input name="description"></div>
+          </div>
+          <button type="submit">Create &amp; add stock</button>
+          <button type="button" id="scan-create-cancel" class="btn ghost">Cancel</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mt-20">
+  <div data-insert="stock-table"></div>
+</div>
