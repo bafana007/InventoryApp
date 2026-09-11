@@ -7,16 +7,8 @@ I’m excited to share my **InventoryApp**, a web-based inventory management sys
 ## Live Demo
 
 Try the application here:
+https://inventoryprototype2.netlify.app/
 
-npm error code ENOENT
-npm error syscall open
-npm error path /opt/render/project/src/package.json
-npm error errno -2
-npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/opt/render/project/src/package.json'
-npm error enoent This is related to npm not being able to find a file.
-npm error enoent
-npm error A complete log of this run can be found in: /opt/render/.cache/_logs/2026-09-11T09_31_29_627Z-debug-0.log
-==> Build failed 😞
 ## Key Features
 
 * User authentication and login
